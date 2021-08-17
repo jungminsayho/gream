@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib        import Path
-from gream_settings import DATABASES, SECRET_KEY, ALGORITHMS, LOGGING
+from gream_settings import DATABASES, SECRET_KEY, ALGORITHMS
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -160,4 +160,4 @@ CRONJOBS = [
     ('10 00 * * *', 'orders.cron.update_bidding_status', '>> /tmp/update.log')
 ]
 
-LOGGING = LOGGING
+# LOGGING = LOGGING
