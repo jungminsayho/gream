@@ -78,7 +78,7 @@ class ContractView(View):
                     user       = user,
                     product_id = product_id,
                     price      = selling_bid.price,
-                    status     = Status.ON_BIDDING
+                    status_id  = Status.ON_BIDDING
                 )
 
             if contract_type == 'sell':
@@ -92,7 +92,7 @@ class ContractView(View):
                     user       = user,
                     product_id = product_id,
                     price      = buying_bid.price,
-                    status     = Status.ON_BIDDING
+                    status_id  = Status.ON_BIDDING
                 )
 
             Contract.objects.create(
