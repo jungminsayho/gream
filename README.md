@@ -6,10 +6,15 @@
 - **Team member**
   - Frontend: 3인(박정훈, 오지수, 이경민)
   - Backend: 3인(김한준, 서정민, 안재경)
+
+<br>
        
 ## 📍 프로젝트 미리보기
 
-![](https://images.velog.io/images/anjaekk/post/a48be216-befc-4a4b-903b-db86a34a289a/Jul-26-2021_13-16-47.gif)
+![](https://images.velog.io/images/anjaekk/post/a48be216-befc-4a4b-903b-db86a34a289a/Jul-26-2021_13-16-47.gif)<br><br>
+<a href="https://www.youtube.com/watch?v=Mvr7map6Y2M">데모영상 클릭</a>
+
+<br>
 
 ## 📍 Database 설계
 
@@ -22,6 +27,8 @@
 </div>
 </details>
 
+<br>
+
 ## 📍 구현 기능
 -Unit test를 통한 코드 검사
 
@@ -33,16 +40,20 @@
 |회원가입 유효성 검사|최근 체결거래 기간별 filtering|
 ||계약금액 변동내역 조회||
 
+<br>
+
 ## 📍 내가 구현한 기능
 - Query Parameter를 통해, 판매/구매 구분하여 입찰 등록 기능 구현
 - 기존에 등록되어 있는 입찰과 매칭시키는 즉시거래 기능 구현
 - Crontab을 이용하여, 입찰기한에 따른 입찰 상태 업데이트 기능 구현
 - Python 표준 라이브러리인 unittest 모듈을 통한 unit-test 진행
 
-
+<br>
 
 ## 📍 API Documentation
 https://documenter.getpostman.com/view/16450829/TzsZqTM6
+
+<br>
 
 ## 📍 프로젝트 진행
 <details>
